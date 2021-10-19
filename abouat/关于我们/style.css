@@ -1,0 +1,213 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: #f3f5f7;
+}
+.w{
+    width: 1200px;
+    margin: auto;
+}
+li{
+    list-style: none;
+    float: left;
+}
+a{
+    text-decoration: none;
+}
+.banner{
+    width: 100%;
+    height: 306px;
+    background: url("../images/banner.png") center center no-repeat ;
+}
+.boss1{
+    height: 400px;
+    background-color: white;
+}
+.boss1 .box1{
+    float: left;
+    width: 260px;
+    height: 400px;
+    margin-left: 30px;
+}
+.boss1 .box1 img{
+    width: 160px;
+    height: 160px;
+    margin: 40px 0 0 50px;
+}
+.boss1 .box1 .p1{
+
+    text-align: center;
+    margin-top: 30px;
+}
+.boss1 .box1 .p1 a{
+    font-size: 25px;
+    color: black;
+}
+.box1 .p1:hover a{
+    color: #00a4ff;
+}
+.boss1 .box1 span{
+    display: inline-block;
+    font-size: 18px;
+    color: black;
+    text-align: center;
+    margin-top: 30px;
+    padding: 0 30px;
+}
+.boss2{
+    height: 590px;
+    background-color: #fff;
+    position: relative;
+}
+.boss2 .g1{
+    position: absolute;
+    left: 65px;
+    top: 180px;
+}
+.boss2 .g2{
+    position: absolute;
+    z-index: 1;
+    left: 270px;
+    top: 100px;
+}
+.boss2 .text1{
+    font-size: 40px;
+    color: #c40000;
+    padding: 175px 0 0 500px;
+}
+.boss2 .g3{
+    padding-left: 530px;
+}
+.boss2 .text2{
+    width: 640px;
+    height: 125px;
+    display: inline-block;
+    font-size: 20px;
+    color: black;
+    padding: 20px 0 0 500px;
+}
+.boss3{
+    height: 450px;
+    background-color: #fff;
+    position: relative;
+}
+.boss3 .g4{
+    position: absolute;
+    right: 65px;
+    bottom: 100px;
+    padding: 160px 0 0 683px;
+}
+.boss3 .text3{
+    color: #c40000;
+    font-size: 40px;
+    padding: 150px 0 0 150px;
+}
+.boss3 .text4{
+    width: 480px;
+    height: 95px;
+    color: black;
+    font-size: 20px;
+    padding: 20px 0 0 150px;
+}
+.boss3 .g5{
+    padding-left: 150px;
+}
+.boss4{
+    height: 500px;
+    background-color: #fff;
+    position: relative;
+}
+.boss4 .g6{
+    width: 400px;
+    position: absolute;
+    right: 65px;
+    bottom: 110px;
+    z-index: 1;
+}
+.boss4 .g7{
+    position: absolute;
+    right: 200px;
+    bottom: 150px;
+}
+.boss4 .text5{
+    font-size: 40px;
+    color: #c40000;
+    padding: 50px 0 0 150px;
+}
+.boss4 .g8{
+    padding-left: 150px;
+}
+.boss4 .text6{
+    width: 480px;
+    height: 100px;
+    font-size: 20px;
+    padding: 20px 0 0 150px;
+}
+.d1{
+    height: 244px;
+    background-color: #727070;
+    padding-top: 70px;
+}
+.d2{
+    width: 680px;
+    margin: 0 auto;
+}
+.d3{
+    width: 680px;
+    height: 50px;
+    line-height: 50px;
+    border-bottom: 2px solid #535353;
+}
+.d2 ul li a{
+    font-size: 20px;
+    color: white;
+    padding: 30px;
+}
+.d3 span{
+    display: inline-block;
+    font-size: 10px;
+    color: black;
+    padding-left:15px;
+    padding-top: 30px;
+}
+.d3 li:hover a{
+    color: #00a4ff;
+}
+.top{
+    width: 1200px;
+    margin: 0 auto;
+    /* background-color: sandybrown; */
+            height: 149px;
+    line-height: 149px;
+}
+.top .img{
+    float: left;
+    width: 242px;
+}
+.top .jpsg{
+    font-weight: bold;
+}
+.top .rel{
+    margin-left: 151px;
+    float: left;
+    height: 149px;
+    line-height: 149px;
+}
+.top .rel a{
+    display: inline-block;
+    text-decoration: none;
+    font-size: 26px;
+    height: 55px;
+    line-height: 55px;
+    color: black;
+    /* font-weight: bold; */
+            padding: 0 22px;
+    margin-left: 20px;
+    transition: all 0.5s ease;
+}
+.top .rel a:hover{
+    background-color: #ff6000;
+    color: #ffffff;
+}

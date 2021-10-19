@@ -1,0 +1,41 @@
+*{
+    margin:0 ;
+    padding: 0;
+}
+li{
+    list-style: none;
+    float: left;
+}
+a{
+    text-decoration: none;
+}
+.d1{
+    height: 244px;
+    background-color: #727070;
+
+}
+.d2{
+    width: 680px;
+    height: 254px;
+    margin: 0 auto;
+}
+.d3{
+    width: 680px;
+    height: 50px;
+    line-height: 50px;
+    border-bottom: 2px solid #535353;
+    padding-top: 50px;
+}
+.d2 ul li a{
+    font-size: 20px;
+    color: white;
+    padding: 30px;
+}
+
+.d3 span{
+    display: inline-block;
+    font-size: 10px;
+    color: black;
+    padding-left:15px;
+    padding-top: 30px;
+}
